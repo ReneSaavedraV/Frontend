@@ -1,0 +1,29 @@
+#pangui {
+    width: 30em;
+    height: 30em;
+
+    will-change: filter;
+    transition: filter 300ms;
+    margin-left: 3em;
+    margin-right: 3em;
+
+    filter: drop-shadow(0 0 1em #000000);
+
+    animation: float 6s ease-in-out infinite;
+}
+
+#pangui:hover {
+    filter: drop-shadow(0 0 1em #ffffff);
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-20px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}

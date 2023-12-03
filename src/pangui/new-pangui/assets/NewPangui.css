@@ -1,0 +1,44 @@
+.imagetext-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+ }
+
+.imagetext-container img {
+    display: none;
+ }
+
+.newpangui-right-text {
+    margin: 0%;
+    font-size: 32px !important;
+    font-weight: 650;
+    margin-left: 3%;
+    color: white !important;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  }
+
+.newpangui-left-text {
+    margin: 0%;
+    font-size: 32px !important;
+    font-weight: 650;
+    margin-right: 3%;
+    color: transparent !important;
+    text-shadow: 1px 1px 0 transparent, -1px -1px 0 transparent, 1px -1px 0 transparent, -1px 1px 0 transparent;
+    user-select: none;
+}
+
+.newpangui-image {
+    will-change: filter;
+    transition: filter 300ms;
+    width: 380px;
+    margin-top: 4%;
+    filter: drop-shadow(0 0 1em #000000aa);
+
+    animation: float 6s ease-in-out infinite;
+}
+
+.newpangui-image:hover {
+    animation: rock 0.5s infinite;
+}

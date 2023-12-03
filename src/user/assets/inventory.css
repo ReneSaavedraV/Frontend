@@ -1,0 +1,63 @@
+.inventory-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-height: 450px;
+    overflow-y: auto;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 1%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.35);
+    border-spacing: 5px; 
+}
+
+.inventory-container img {
+    width: 100%;
+    border-bottom: black 1px solid;
+    box-shadow: inset 0px 10px 15px 0px rgba(0, 0, 0, 0.7);
+}
+
+.item-quantity {
+    position: absolute;
+    bottom: calc(10% + 3vh);
+    right: 6%;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    font-size: 22px;
+    color: white;
+    transition: 0.3s ease; 
+}
+
+/* Las clases de aquí para abajo se usan tanto en PetPage como en Achievements, considerar mover a common
+   y cambiar su nombre */
+
+.item-details {
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    font-size: 22px;
+    color: white;
+    height: 100%;
+    align-items: center;
+}
+
+.item-details p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.inventory-item {
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr 25%;
+    align-items: center;
+    background: rgb(117, 124, 212, 0.65);
+    border: white 2px solid;
+    transition: 0.3s ease;
+    height: 100%;
+}
+
+.inventory-item:hover {
+    background: rgba(0, 0, 0, 0.8);
+    transform: translateY(5px);
+    cursor: pointer;
+}

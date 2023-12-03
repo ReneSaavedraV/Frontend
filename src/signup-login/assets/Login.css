@@ -1,0 +1,15 @@
+.text-login {
+    margin-top: 30px;
+    font-size: 1em;
+    font-weight: 450;
+    line-height: 1.1;
+    color: rgb(37, 36, 36);
+}
+
+.text-login a {
+    margin-top: 30px;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.1;
+    color: rgb(37, 36, 36) !important;
+}

@@ -1,0 +1,48 @@
+.navbar {
+    background-color: rgb(0, 8, 168, 0.33);
+    padding: 0;
+    position: relative;
+}
+
+.navbar .nav-link a {
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.navbar span.navbar-brand {
+    padding: 0;
+    margin-left: 2%;
+}
+
+.navbar-nav {
+    height: 9.524vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    width: 100%;
+    font-size: calc(0.3375rem + 0.8vw);
+}
+
+.home img {
+    width: 8.18%;
+}
+
+.nav-link.active {
+    color: black !important;
+    font-weight: 600;
+    background-color: #ffffffcc;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+.dropdown-menu {
+    background-color: rgb(0, 8, 168, 0.5);
+}
+
+.dropdown-item:hover {
+    color: black !important;
+}

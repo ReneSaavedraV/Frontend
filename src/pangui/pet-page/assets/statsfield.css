@@ -1,0 +1,49 @@
+
+.stats-bar {
+    margin: 0.5em;
+}
+
+.stats-bar-name {
+    color: white;
+    font-weight: bold;
+    user-select: none;
+}
+
+.stats-bar-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+
+    background-color: rgb(26, 32, 133);
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: rgb(26, 32, 133);
+    border-radius: 1em;
+    padding: 0.3em;
+    height: 1em;
+    width: 8em;
+}
+
+.stats-bar-bar:hover {
+    transition: 0.5s;
+    border-color: white;
+    background-color: rgb(80, 87, 228);
+}
+
+.stats-bar-bar-fill {
+    transition: 0.5s;
+    border-radius: 1em;
+    height: 100%;
+
+    filter: drop-shadow(0 0 0.5em #000000aa);
+}
+
+.stats-field {
+    background-color: rgb(45, 52, 168);
+    border-radius: 1em;
+    padding: 0.5em;
+    width: fit-content;
+    height: fit-content;
+
+    filter: drop-shadow(0 0 1em #000000aa);
+}

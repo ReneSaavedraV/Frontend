@@ -1,0 +1,74 @@
+.primary-button {
+    width: 100%;
+    padding: 4.61% !important;
+    margin-top: 4.61%;
+    margin-bottom: 0px;
+}
+
+.primary-button:hover {
+    background-color: #0056b3 !important; 
+    border: 0.5px solid #292121 !important;
+}
+
+.edit-button {
+    background-color: #FFA500; /* Orange */
+    color: #fff;
+    border: none;
+    padding: 12px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    margin-top: 4.61%;
+    font-size: 1rem;
+}
+
+.edit-button:hover {
+    background-color: #FFD700; /* Yellow */
+}
+
+.edit-button:focus {
+    outline: none;
+}
+
+.edit-button:active {
+    transform: scale(0.95);
+}
+
+.delete-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.delete-button:hover {
+    background-color: #c0392b;
+}
+
+.delete-button:focus {
+    outline: none;
+}
+
+.delete-button:active {
+    transform: scale(0.95);
+}
+  
+.return-button {
+    background-color: #61605f;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+  
+.return-button:hover {
+    background-color: rgb(39, 39, 35);
+}
